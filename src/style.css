@@ -4,3 +4,27 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.header .head {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: start;
+  justify-content: center;
+  gap: 5px;
+  padding: 5px;
+  border: solid black 5px;
+  overflow-x: auto;
+  flex-wrap: wrap;
+}
